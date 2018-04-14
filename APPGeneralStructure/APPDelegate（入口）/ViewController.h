@@ -2,8 +2,8 @@
 //  ViewController.h
 //  APPGeneralStructure
 //
-//  Created by user on 2018/2/7.
-//  Copyright © 2018年 BigBrotherCompany. All rights reserved.
+//  Created by wangliqun on 2018/2/7.
+//  Copyright © 2018年 https://github.com/2005wangliqun. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

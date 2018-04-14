@@ -35,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		28D8F7192081F78D002B89F2 /* Macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
 		CE5886A5202AEDA3003CB4D8 /* APPGeneralStructure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APPGeneralStructure.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE5886A8202AEDA3003CB4D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CE5886A9202AEDA3003CB4D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -78,14 +79,147 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		28D8F7052081F4ED002B89F2 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		28D8F7072081F50E002B89F2 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				28D8F70B2081F529002B89F2 /* config */,
+				28D8F70A2081F526002B89F2 /* StoryBoard */,
+				28D8F7092081F523002B89F2 /* Plist */,
+				28D8F7082081F520002B89F2 /* Images */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		28D8F7082081F520002B89F2 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		28D8F7092081F523002B89F2 /* Plist */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Plist;
+			sourceTree = "<group>";
+		};
+		28D8F70A2081F526002B89F2 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		28D8F70B2081F529002B89F2 /* config */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = config;
+			sourceTree = "<group>";
+		};
+		28D8F70C2081F5A4002B89F2 /* Bussineess(业务) */ = {
+			isa = PBXGroup;
+			children = (
+				28D8F70D2081F5BE002B89F2 /* Section one(业务一) */,
+			);
+			path = "Bussineess(业务)";
+			sourceTree = "<group>";
+		};
+		28D8F70D2081F5BE002B89F2 /* Section one(业务一) */ = {
+			isa = PBXGroup;
+			children = (
+				28D8F7102081F5DB002B89F2 /* Model */,
+				28D8F70F2081F5D8002B89F2 /* View */,
+				28D8F70E2081F5D5002B89F2 /* Control */,
+			);
+			path = "Section one(业务一)";
+			sourceTree = "<group>";
+		};
+		28D8F70E2081F5D5002B89F2 /* Control */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		28D8F70F2081F5D8002B89F2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		28D8F7102081F5DB002B89F2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		28D8F7122081F6A7002B89F2 /* Expand(公共基础) */ = {
+			isa = PBXGroup;
+			children = (
+				28D8F7182081F706002B89F2 /* Category（扩展） */,
+				28D8F7172081F701002B89F2 /* Constant（常量） */,
+				28D8F7162081F6FD002B89F2 /* Tool(工具) */,
+				28D8F7152081F6F5002B89F2 /* NetWork（网络） */,
+				28D8F7142081F6F2002B89F2 /* Macros（宏） */,
+			);
+			path = "Expand(公共基础)";
+			sourceTree = "<group>";
+		};
+		28D8F7142081F6F2002B89F2 /* Macros（宏） */ = {
+			isa = PBXGroup;
+			children = (
+				28D8F7192081F78D002B89F2 /* Macros.h */,
+			);
+			path = "Macros（宏）";
+			sourceTree = "<group>";
+		};
+		28D8F7152081F6F5002B89F2 /* NetWork（网络） */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "NetWork（网络）";
+			sourceTree = "<group>";
+		};
+		28D8F7162081F6FD002B89F2 /* Tool(工具) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Tool(工具)";
+			sourceTree = "<group>";
+		};
+		28D8F7172081F701002B89F2 /* Constant（常量） */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Constant（常量）";
+			sourceTree = "<group>";
+		};
+		28D8F7182081F706002B89F2 /* Category（扩展） */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Category（扩展）";
+			sourceTree = "<group>";
+		};
 		CE58869C202AEDA3003CB4D8 = {
 			isa = PBXGroup;
 			children = (
-				CE5886DA202AF1B2003CB4D8 /* Bussiness */,
-				CE5886E9202AF5D3003CB4D8 /* Expand(扩展) */,
-				CE5886DD202AF1D4003CB4D8 /* Vendors(第三方) */,
 				CE5886A7202AEDA3003CB4D8 /* APPDelegate（入口） */,
-				CE5886DC202AF1D1003CB4D8 /* Resources（资源） */,
+				28D8F70C2081F5A4002B89F2 /* Bussineess(业务) */,
+				28D8F7122081F6A7002B89F2 /* Expand(公共基础) */,
+				28D8F7072081F50E002B89F2 /* Resource */,
+				28D8F7052081F4ED002B89F2 /* Vendors */,
 				CE5886C0202AEDA3003CB4D8 /* APPGeneralStructureTests */,
 				CE5886CB202AEDA3003CB4D8 /* APPGeneralStructureUITests */,
 				CE5886A6202AEDA3003CB4D8 /* Products */,
@@ -134,154 +268,6 @@
 				CE5886CE202AEDA3003CB4D8 /* Info.plist */,
 			);
 			path = APPGeneralStructureUITests;
-			sourceTree = "<group>";
-		};
-		CE5886DA202AF1B2003CB4D8 /* Bussiness */ = {
-			isa = PBXGroup;
-			children = (
-				CE5886E5202AF323003CB4D8 /* Section One */,
-			);
-			path = Bussiness;
-			sourceTree = "<group>";
-		};
-		CE5886DC202AF1D1003CB4D8 /* Resources（资源） */ = {
-			isa = PBXGroup;
-			children = (
-				CE5886E4202AF2C0003CB4D8 /* config */,
-				CE5886E3202AF2A9003CB4D8 /* StoryBoard */,
-				CE5886E2202AF26F003CB4D8 /* Plist */,
-				CE5886E1202AF267003CB4D8 /* Images */,
-			);
-			path = "Resources（资源）";
-			sourceTree = "<group>";
-		};
-		CE5886DD202AF1D4003CB4D8 /* Vendors(第三方) */ = {
-			isa = PBXGroup;
-			children = (
-				CE5886F0202AF6A4003CB4D8 /* SDWebImage */,
-				CE5886EF202AF690003CB4D8 /* AFNetWorking */,
-			);
-			path = "Vendors(第三方)";
-			sourceTree = "<group>";
-		};
-		CE5886E1202AF267003CB4D8 /* Images */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Images;
-			sourceTree = "<group>";
-		};
-		CE5886E2202AF26F003CB4D8 /* Plist */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Plist;
-			sourceTree = "<group>";
-		};
-		CE5886E3202AF2A9003CB4D8 /* StoryBoard */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = StoryBoard;
-			sourceTree = "<group>";
-		};
-		CE5886E4202AF2C0003CB4D8 /* config */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = config;
-			sourceTree = "<group>";
-		};
-		CE5886E5202AF323003CB4D8 /* Section One */ = {
-			isa = PBXGroup;
-			children = (
-				CE5886E8202AF362003CB4D8 /* Control */,
-				CE5886E7202AF34A003CB4D8 /* View */,
-				CE5886E6202AF33E003CB4D8 /* Model */,
-			);
-			path = "Section One";
-			sourceTree = "<group>";
-		};
-		CE5886E6202AF33E003CB4D8 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		CE5886E7202AF34A003CB4D8 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		CE5886E8202AF362003CB4D8 /* Control */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Control;
-			sourceTree = "<group>";
-		};
-		CE5886E9202AF5D3003CB4D8 /* Expand(扩展) */ = {
-			isa = PBXGroup;
-			children = (
-				CE5886EE202AF600003CB4D8 /* Tool(工具) */,
-				CE5886ED202AF5F9003CB4D8 /* NetWork（网络） */,
-				CE5886EC202AF5F5003CB4D8 /* Macros（宏） */,
-				CE5886EB202AF5F2003CB4D8 /* Constant（常量） */,
-				CE5886EA202AF5E2003CB4D8 /* Category（扩展） */,
-			);
-			path = "Expand(扩展)";
-			sourceTree = "<group>";
-		};
-		CE5886EA202AF5E2003CB4D8 /* Category（扩展） */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Category（扩展）";
-			sourceTree = "<group>";
-		};
-		CE5886EB202AF5F2003CB4D8 /* Constant（常量） */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Constant（常量）";
-			sourceTree = "<group>";
-		};
-		CE5886EC202AF5F5003CB4D8 /* Macros（宏） */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Macros（宏）";
-			sourceTree = "<group>";
-		};
-		CE5886ED202AF5F9003CB4D8 /* NetWork（网络） */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "NetWork（网络）";
-			sourceTree = "<group>";
-		};
-		CE5886EE202AF600003CB4D8 /* Tool(工具) */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Tool(工具)";
-			sourceTree = "<group>";
-		};
-		CE5886EF202AF690003CB4D8 /* AFNetWorking */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = AFNetWorking;
-			sourceTree = "<group>";
-		};
-		CE5886F0202AF6A4003CB4D8 /* SDWebImage */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = SDWebImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -347,7 +333,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0920;
-				ORGANIZATIONNAME = BigBrotherCompany;
+				ORGANIZATIONNAME = "https://github.com/2005wangliqun";
 				TargetAttributes = {
 					CE5886A4202AEDA3003CB4D8 = {
 						CreatedOnToolsVersion = 9.2;
